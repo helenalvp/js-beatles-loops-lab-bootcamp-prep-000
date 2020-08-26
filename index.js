@@ -5,7 +5,7 @@ var array=[];
 /* Use a `for loop`, which iterates over the array of musicians. Be careful
   about what value you set your `counter` variable to store. (Hint: Think
   about what the first index of an array is). */
-  for (let i = 0; i < arrayOfMusicians.length; i++) {
+  for (let i = 0; i < 4; i++) {
     /* The first time through the loop, it should create a string using the _first_
       index of the musicians array **and** the first index of the instruments
       array: `"John Lennon plays guitar"`. */
