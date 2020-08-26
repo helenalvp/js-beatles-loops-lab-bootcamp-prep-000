@@ -6,3 +6,16 @@ var array=[];
   }
 return array;
 }
+
+function johnLennonFacts(arrayofJohnLennonFacts) {
+/* Use a while loop to loop over the facts array and add `"!!!"` to the end of
+every fact. */
+var updatedArray = [];
+let length = arrayofJohnLennonFacts.length;
+ while (length > 0) {
+  updatedArray.push(`${arrayofJohnLennonFacts.shift()}!!!`)
+   --length;
+ }
+// Return an array of strings with exclamation points.
+return updatedArray;
+}
