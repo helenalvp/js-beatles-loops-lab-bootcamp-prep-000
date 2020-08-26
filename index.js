@@ -22,7 +22,7 @@ function iLoveTheBeatles(number) {
 
 /* Implement a do-while loop inside the function that adds `"I love the
   Beatles!"` to the empty array. */
-  
+
 /* The loop should then increment the number passed in as a parameter. The
   condition of the loop should check to see that the parameter number is
   less than `15`. It should contain a number of strings that represents the
