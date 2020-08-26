@@ -19,16 +19,9 @@ function johnLennonFacts(arrayofJohnLennonFacts) {
 
 function iLoveTheBeatles(number) {
   var array = [];
-/* Implement a do-while loop inside the function that adds `"I love the
-  Beatles!"` to the empty array. */
- do {
-   array.push("I love the Beatles!");
-   ++number;
- } while (number < 15);
-/* The loop should then increment the number passed in as a parameter. The
-  condition of the loop should check to see that the parameter number is
-  less than `15`. It should contain a number of strings that represents the
-  difference between the input number and `15`. */
+  do {
+     array.push("I love the Beatles!");
+     ++number;
+   } while (number < 15);
   return array;
-
 }
